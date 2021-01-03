@@ -6,7 +6,7 @@ body
         .head
              {
                  position: absolute;
-                 top:15%;
+                 top:5%;
                  left: 50%;
                  transform: translate(-50%,-50%);
                 padding: 30px;
@@ -16,7 +16,7 @@ body
              }
         .main
         {   position: absolute;
-            top: 50%;
+            top: 40%;
             left: 50%;
             transform: translate(-50%,-50%);
             border: 2px solid white;
@@ -98,7 +98,7 @@ body
              .main1
              {
                  position: absolute;
-                 top:90%;
+                 top:80%;
                  left: 50%;
                  transform: translate(-50%,-50%);
                 padding: 30px;
@@ -112,3 +112,31 @@ body
                  font-weight: 700;
                  font-size: 20px;
              }
+
+             .end{
+                position: absolute;
+                top:95%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+             }
+             .end > p
+    {
+        text-align: center;
+        font-weight: bold;
+    }
+      .lin
+    {
+        margin: auto;
+        margin-bottom: 12px;
+
+        text-align: center;
+
+
+    }
+      .lin  a
+    {
+        color: orange;
+        text-decoration: none;
+
+
+    }
